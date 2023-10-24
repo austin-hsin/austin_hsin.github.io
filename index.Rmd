@@ -1,0 +1,20 @@
+# Introduction
+
+Welcome to Austin's website, explore about the site, email, and github on the top right.
+
+Find below a quick academic/professional overview as well as the relevant plots from the `Instacart` dataset.
+
+# Academic and Professional Experience
+
+Here is the images, resume, background, etc etc (adjust for appropriate formatting)
+
+Adding text with
+
+* lists
+* and with extra bullets
+
+You can *FORMAT* and **bold?**
+
+# Homework 4 Plots
+
+Here are the flexdashboard plots for the `Instacart` dataset

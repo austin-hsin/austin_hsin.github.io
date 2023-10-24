@@ -1,0 +1,16 @@
+name: "Austin Hsin's Website"
+output_dir: "."
+navbar:
+  title: "Austin's Website"
+  right: 
+    - text: "Home"
+    - href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<ah4028@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/austin-hsin/
+output:
+  html_document:
+    theme: cerulean
