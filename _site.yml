@@ -2,15 +2,22 @@ name: "Austin Hsin's Website"
 output_dir: "."
 navbar:
   title: "Austin's Website"
-  right: 
+  type: inverse
+  left: 
     - text: "Home"
-    - href: index.html
+      href: index.html
+      icon: fa-solid fa-house
     - text: "About"
+      icon: fa-solid fa-circle-info
       href: about.html
-    - icon: fa-envelope fa-lg
+    - text: "Contact"
       href: mailto:<ah4028@cumc.columbia.edu>
+      icon: fa-envelope fa-lg
     - icon: fa-github fa-lg
       href: http://github.com/austin-hsin/
 output:
   html_document:
-    theme: cerulean
+    theme: yeti
+    highlight: tango
+    
+    
