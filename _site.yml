@@ -1,29 +1,27 @@
-name: "Austin Hsin's Website"
+name: "Website Settings"
 output_dir: "."
 navbar:
   title: "Austin's Website"
-  type: inverse
-  left: 
-    - text: "Home"
-      href: index.html
-      icon: fa-solid fa-house fa-xl
-    - text: "About"
-      icon: fa-solid fa-circle-info fa-lg
-      href: about.html
-    - text: "Contact"
-      href: mailto:<ah4028@cumc.columbia.edu>
-      icon: fa-envelope fa-lg
-    - text: "Github"
-      icon: fa-github fa-lg
-      href: http://github.com/austin-hsin/
-    - text: "Current Project"
-      icon: fa-solid fa-qrcode fa-lg
-      href: google.com
-    - icon: fa-solid fa-circle-question fa-spin fa-lg
-      href: google.com
+  right:
+    - text: "Menu"
+      menu:
+      - text: "Home"
+        href: index.html
+        icon: fa-solid fa-house fa-xl
+      - text: "About"
+        icon: fa-solid fa-circle-info fa-lg
+        href: about.html
+      - text: "Contact"
+        href: mailto:<ah4028@cumc.columbia.edu>
+        icon: fa-envelope fa-lg
+      - text: "Github"
+        icon: fa-github fa-lg
+        href: http://github.com/austin-hsin/
+      - text: "Current Project"
+        icon: fa-solid fa-qrcode fa-lg
+        href: google.com
 output:
   html_document:
     theme: yeti
     highlight: tango
-    
     
