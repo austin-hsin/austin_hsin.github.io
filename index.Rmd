@@ -1,8 +1,8 @@
 # Introduction
 
-Welcome to Austin's website, explore about the site, email, and github on the top right.
+Welcome to Austin's website, a project "showcasing" his R capabilities.
 
-Find below a quick academic/professional overview as well as the relevant plots from the `Instacart` dataset.
+Information about the site, contact email, and github profile are provided in the navbar above.
 
 # Academic and Professional Experience
 
