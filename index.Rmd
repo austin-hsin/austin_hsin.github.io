@@ -7,21 +7,6 @@ output:
 ---
 # Introduction
 
-Welcome to Austin's website, a project "showcasing" his R capabilities.
+Welcome to Austin's website, a project created under the mentorship of Jeff Goldsmith through his [Data Science I](https://p8105.com/index.html) course for a project assignment.
+This is a website created by Austin Hsin, a second year MPH candidate at the Columbia Mailman School of Public Health. Below is a 
 
-Information about the site, contact email, and github profile are provided in the navbar above.
-
-# Academic and Professional Experience
-
-Here is the images, resume, background, etc etc (adjust for appropriate formatting)
-
-Adding text with
-
-* lists
-* and with extra bullets
-
-You can *FORMAT* and **bold?**
-
-# Homework 4 Plots
-
-Here are the flexdashboard plots for the `Instacart` dataset

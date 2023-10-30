@@ -2,12 +2,13 @@ name: "Website Settings"
 output_dir: "."
 navbar:
   title: "Austin's Website"
+  type: inverse
   right:
     - text: "Menu"
       menu:
       - text: "Home"
-        href: index.html
         icon: fa-solid fa-house fa-xl
+        href: index.html
       - text: "About"
         icon: fa-solid fa-circle-info fa-lg
         href: about.html
@@ -19,6 +20,9 @@ navbar:
         href: http://github.com/austin-hsin/
       - text: "Current Project"
         icon: fa-solid fa-qrcode fa-lg
+        href: https://me-qr.com/mobile/pdf/18431080
+      - text: "plot.ly dashboard"
+        icon: fa-solid fa-chart-simple
         href: google.com
 output:
   html_document:
