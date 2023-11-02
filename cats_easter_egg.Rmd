@@ -1,0 +1,22 @@
+---
+title: "Cats!"
+output: html_document
+---
+
+Welcome to a small little easter egg featuring some of my favorite cats in I've had the fortune of meeting and interacting with.
+
+This is Pepper as a kitten on the first day my friend adopted him.
+
+<iframe src="https://giphy.com/embed/1aJ0mJeAePy3RO3neP" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1aJ0mJeAePy3RO3neP"></a></p>
+
+And this is Pepper a little grown up.
+
+<img src="images/20211019_090359.jpg">
+
+This is Truffle, she's a little tuckered out at the moment (and yes, she sleeps like this).
+
+<img src="images/20230603_211215.jpg">
+
+And finally, here is Dubu, a handsome voidling who loves cuddles and scritches.
+
+<img src="images/20231014_102756.jpg">

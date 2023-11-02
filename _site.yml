@@ -22,6 +22,8 @@ navbar:
       - text: "plot.ly dashboard"
         icon: fa-solid fa-chart-simple
         href: nyc_inspections_flexboard.html
+      - icon: fa-solid fa-paw
+        href: cats_easter_egg.html
 output:
   html_document:
     theme: yeti

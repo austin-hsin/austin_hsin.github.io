@@ -1,5 +1,10 @@
-# About
+---
+title: "About"
+output: html_document
+---
+Provided below is a summary of my academic and professional background. A full resume can be requested via email from the drop down menu.
 
-Provided below is a summary of Austin's academic and professional background. A full resume can be requested via email from the drop down menu.
+# Academic Experience
 
-# Academic and Professional Experience
+
+# Professional Experience
