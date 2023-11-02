@@ -22,24 +22,12 @@ rest_inspec_clean <- rest_inspec |>
   filter(boro != "Missing")
 ```
 
-{data-width=650}
+{data-width=550}
 -----------------------------------------------------------------------
 
-### Distribution of violation scores by borough in 2016
+### Barchart showing distribution of most common violation types from 2013 to 2017
 
-```{r boxplot, echo=FALSE, warning=FALSE}
-rest_inspec_clean |>
-  group_by(boro)|>
-  filter(Year == "2016") |>
-  plot_ly(y = ~score, color = ~boro, type = "box", alpha = 0.5, colors = "viridis")
-```
-
-{data-width=350}
------------------------------------------------------------------------
-
-### Barchart showing distribution of violation types by borough from 2013 to 2017
-
-```{r barchart, echo=FALSE}
+```{r barchart, echo=FALSE, message=FALSE}
 rest_inspec_clean |>
   group_by(Year, violation_code) |>
   summarize(tally = n()) |>
@@ -47,7 +35,24 @@ rest_inspec_clean |>
   plot_ly(x = ~Year, y = ~tally, color = ~violation_code, type = "bar", colors = "viridis")
 ```
 
-### Boxplot showing
 
-```{r lineplot, echo=FALSE}
+{data-width=450}
+-----------------------------------------------------------------------
+
+### Lineplot showing mean violation score by NYC borough from 2013-2017
+
+```{r lineplot, echo=FALSE, message=FALSE}
+rest_inspec_clean |>
+  group_by(boro, Year) |>
+  summarize(mean_score = mean(score)) |>
+   plot_ly(x = ~Year, y = ~mean_score, type = "scatter", mode = "lines", color = ~boro, alpha = 0.7)
+```
+
+### Boxplot of Starbucks violation scores by borough
+
+```{r boxplot, echo=FALSE, warning=FALSE}
+rest_inspec_clean |>
+  filter(dba == "STARBUCKS") |>
+  group_by(boro)|>
+  plot_ly(x = ~boro, y = ~score, color = ~boro, type = "box", alpha = 0.5, colors = "viridis")
 ```
