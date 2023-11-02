@@ -3,9 +3,7 @@ title: "Austin's Website"
 output: html_document
 ---
 
-
 ## Greetings!
-
 
 Welcome to my website! 
 
