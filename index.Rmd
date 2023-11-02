@@ -7,6 +7,21 @@ output:
 ---
 # Introduction
 
-Welcome to Austin's website, a project created under the mentorship of Jeff Goldsmith through his [Data Science I](https://p8105.com/index.html) course for a project assignment.
-This is a website created by Austin Hsin, a second year MPH candidate at the Columbia Mailman School of Public Health. Below is a 
+Welcome to my website! 
+
+My name is Austin, I'm a 2nd year MPH student at the Columbia Mailman School of Public Health in the Epidemiology department with a certificate in Chronic Disease Epidemiology.
+
+This website was created for an assignment under the mentorship of Jeff Goldsmith through his [Data Science I](https://p8105.com/index.html) course.
+
+Feel free to head over to my [about page](about.html) to learn more about my academic and professional background or explore the rest of the site via the menu on the top right.
+
+Here is a [plot.ly flexdashboard](nyc_inspections_flexboard.html) that I also created for the assignment.
+
+Stay as long as you'd like, I'll be here working on other projects.
+
+<iframe src="https://giphy.com/embed/ZDxrPdX4Au7St8r36N" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MicrosoftCloud-microsoft-cloud-ms-ZDxrPdX4Au7St8r36N"></a></p>
+
+Hope you enjoy the rest of your day!
+
+
 

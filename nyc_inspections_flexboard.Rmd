@@ -25,33 +25,29 @@ rest_inspec_clean <- rest_inspec |>
 {data-width=650}
 -----------------------------------------------------------------------
 
-### Line plot of the average violation score by borough from 2013 to 2017.
+### Distribution of violation scores by borough in 2016
 
-```{r lineplot, echo=FALSE}
+```{r boxplot, echo=FALSE, warning=FALSE}
 rest_inspec_clean |>
-  filter(boro == "MANHATTAN") |>
-  plot_ly(x = ~Year, y = ~score, type = "box", alpha = 0.5)
+  group_by(boro)|>
+  filter(Year == "2016") |>
+  plot_ly(y = ~score, color = ~boro, type = "box", alpha = 0.5, colors = "viridis")
 ```
 
 {data-width=350}
 -----------------------------------------------------------------------
 
-### Barchart showing distribution of grades by borough in 2016
+### Barchart showing distribution of violation types by borough from 2013 to 2017
 
 ```{r barchart, echo=FALSE}
 rest_inspec_clean |>
-  filter(Year == "2016") |>
-  group_by(boro, grade) |>
-  summarize(
-    grade_count = n()) |>
-  plot_ly(x = ~grade, y = ~grade_count, color = ~boro, type = "bar", colors = "viridis")
+  group_by(Year, violation_code) |>
+  summarize(tally = n()) |>
+  filter(tally > 1000) |>
+  plot_ly(x = ~Year, y = ~tally, color = ~violation_code, type = "bar", colors = "viridis")
 ```
 
 ### Boxplot showing
 
-```{r boxplot, echo=FALSE}
-nyc_airbnb |> 
-  count(neighbourhood) |> 
-  mutate(neighbourhood = fct_reorder(neighbourhood, n)) |> 
-  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "viridis")
+```{r lineplot, echo=FALSE}
 ```

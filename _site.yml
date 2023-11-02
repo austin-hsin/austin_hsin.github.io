@@ -1,13 +1,11 @@
 name: "Website Settings"
 output_dir: "."
 navbar:
-  title: "Austin's Website"
+  title: "Home"
   type: inverse
+  icon: fa-solid fa-house fa-xl
   right:
-    - text: "Home"
-      icon: fa-solid fa-house fa-xl
-      href: index.html
-    - text: "Menu"
+    - icon: fa-solid fa-bars
       menu:
       - text: "About"
         icon: fa-solid fa-circle-info fa-lg
