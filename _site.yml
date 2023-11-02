@@ -28,6 +28,4 @@ output:
   html_document:
     theme: yeti
     highlight: tango
-    toc: TRUE
-    toc_float: TRUE
     

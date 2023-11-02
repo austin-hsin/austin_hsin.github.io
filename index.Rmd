@@ -1,11 +1,9 @@
 ---
-title: "Welcome to Austin's Website"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
+title: "Austin's Website"
+output: html_document
 ---
-# Introduction
+
+## Introduction
 
 Welcome to my website! 
 
