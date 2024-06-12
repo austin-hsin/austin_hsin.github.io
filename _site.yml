@@ -19,6 +19,9 @@ navbar:
       - text: "Current Project"
         icon: fa-solid fa-qrcode fa-lg
         href: https://me-qr.com/mobile/pdf/18431080
+      - text: "Master's Thesis"
+        icon: fa-solid fa-scroll
+        href: https://me-qr.com/mobile/pdf/22967348 
       - text: "plot.ly dashboard"
         icon: fa-solid fa-chart-simple
         href: nyc_inspections_flexboard.html

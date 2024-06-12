@@ -9,7 +9,7 @@ Welcome to my website!
 
 My name is Austin, I am a recent MPH graduate from the Columbia Mailman School of Public Health in the Epidemiology department with a certificate in Chronic Disease Epidemiology.
 
-I am currently seeking a position in clinical and health data research by which to further advance health equity and healthcare delivery and further develop my analytical and statistical programming skills. I hope this website, along with my github, provides a small portfolio by which to exemplify my strong foundation in R as well as perpetuates my problem solving and critical thinking abilities in other programming languages such as SAS and SQL.
+I am currently seeking a position in clinical and health data research by which to further advance health equity and healthcare delivery and further develop my analytical and statistical programming skills. I hope this website, along with my github, provides a small portfolio by which to exemplify my strong foundation in R as well as my problem solving and critical thinking abilities.
 
 This website was created for an assignment under the mentorship of Jeff Goldsmith through his [Data Science I](https://p8105.com/index.html) course.
 
